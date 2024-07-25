@@ -5,14 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d82d9fd3-5067-4f26-83ef-5482d27841de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AirflowGeDockerStudy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dags/great_expectations_dag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dags/print_sql_request_dag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expectations/expectations/my_suite.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expectations/great_expectations.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expectations/plugins/custom_expectations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_processor_manager/dag_processor_manager.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/dag_processor_manager/dag_processor_manager.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_bash_decorator.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_bash_decorator.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_bash_operator.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_bash_operator.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_branch_datetime_operator.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_branch_datetime_operator.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_branch_day_of_week_operator.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_branch_day_of_week_operator.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_branch_labels.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_branch_labels.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_branch_operator.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_branch_operator.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_branch_operator_decorator.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_branch_operator_decorator.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_branch_python_dop_operator_3.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_branch_python_dop_operator_3.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_complex.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_complex.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_dag_decorator.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_dag_decorator.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_datasets.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_datasets.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_display_name.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_display_name.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_dynamic_task_mapping.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_dynamic_task_mapping.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_external_task_marker_dag.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_external_task_marker_dag.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_kubernetes_executor.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_kubernetes_executor.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_latest_only.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_latest_only.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_latest_only_with_trigger.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_latest_only_with_trigger.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_local_kubernetes_executor.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_local_kubernetes_executor.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_nested_branch_dag.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_nested_branch_dag.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_params_trigger_ui.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_params_trigger_ui.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_params_ui_tutorial.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_params_ui_tutorial.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_passing_params_via_test_command.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_passing_params_via_test_command.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_python_decorator.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_python_decorator.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_python_operator.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_python_operator.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_sensor_decorator.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_sensor_decorator.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_sensors.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_sensors.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_setup_teardown.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_setup_teardown.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_setup_teardown_taskflow.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_setup_teardown_taskflow.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_short_circuit_decorator.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_short_circuit_decorator.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_short_circuit_operator.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_short_circuit_operator.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_skip_dag.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_skip_dag.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_sla_dag.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_sla_dag.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_subdag_operator.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_subdag_operator.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_task_group.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_task_group.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_task_group_decorator.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_task_group_decorator.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_time_delta_sensor_async.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_time_delta_sensor_async.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_trigger_controller_dag.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_trigger_controller_dag.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_trigger_target_dag.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_trigger_target_dag.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_xcom.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_xcom.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_xcomargs.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/example_xcomargs.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/plugins/decreasing_priority_weight_strategy.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/plugins/decreasing_priority_weight_strategy.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/plugins/event_listener.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/plugins/event_listener.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/plugins/listener_plugin.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/plugins/listener_plugin.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/plugins/workday.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/plugins/workday.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/subdags/subdag.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/subdags/subdag.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/tutorial.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/tutorial.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/tutorial_dag.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/tutorial_dag.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/tutorial_objectstorage.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/tutorial_objectstorage.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/tutorial_taskflow_api.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/tutorial_taskflow_api.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/tutorial_taskflow_api_virtualenv.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2024-07-24/native_dags/example_dags/tutorial_taskflow_api_virtualenv.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/latest" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/latest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +76,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Dockerfile" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -41,9 +95,14 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

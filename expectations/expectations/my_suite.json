@@ -1,0 +1,33 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "my_suite",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_row_count_to_be_between",
+      "kwargs": {
+        "min_value": 1,
+        "max_value": 100
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "table_name"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_contain_string",
+      "kwargs": {
+        "column": "table_name",
+        "substring": "dag",
+        "mostly": 1
+      },
+      "meta": {}
+    }
+  ],
+  "meta": {
+    "great_expectations_version": "0.18.17"
+  }
+}

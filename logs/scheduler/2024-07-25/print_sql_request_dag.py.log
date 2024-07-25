@@ -1,0 +1,662 @@
+[2024-07-25T17:53:36.023+0000] {processor.py:161} INFO - Started process (PID=30) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:53:36.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T17:53:36.026+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:53:36.025+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:53:36.044+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:53:36.193+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:53:36.192+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:list_db_tables
+[2024-07-25T17:53:36.198+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:53:36.198+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:list_db_tables
+[2024-07-25T17:53:36.201+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:53:36.201+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:list_db_tables
+[2024-07-25T17:53:36.202+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:53:36.202+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T17:53:36.209+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:53:36.208+0000] {dag.py:3111} INFO - Creating ORM DAG for list_db_tables
+[2024-07-25T17:53:36.210+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:53:36.209+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T17:53:36.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.203 seconds
+[2024-07-25T17:54:06.816+0000] {processor.py:161} INFO - Started process (PID=89) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:54:06.817+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T17:54:06.820+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:54:06.820+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:54:06.831+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:54:06.845+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:54:06.845+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T17:54:06.853+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:54:06.853+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T17:54:06.862+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.054 seconds
+[2024-07-25T17:54:42.362+0000] {processor.py:161} INFO - Started process (PID=148) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:54:43.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T17:54:43.331+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:54:43.331+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:54:43.709+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:54:43.791+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:54:43.791+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T17:54:43.853+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:54:43.853+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T17:54:43.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 4.380 seconds
+[2024-07-25T17:55:14.575+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:55:14.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T17:55:14.579+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:55:14.579+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:55:14.589+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:55:14.605+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:55:14.605+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T17:55:14.613+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:55:14.612+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T17:55:14.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.056 seconds
+[2024-07-25T17:55:45.383+0000] {processor.py:161} INFO - Started process (PID=268) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:55:45.384+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T17:55:45.386+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:55:45.386+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:55:45.392+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:55:45.405+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:55:45.405+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T17:55:45.413+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:55:45.413+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T17:55:45.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.044 seconds
+[2024-07-25T17:56:16.112+0000] {processor.py:161} INFO - Started process (PID=328) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:56:16.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T17:56:16.115+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:56:16.115+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:56:16.123+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:56:16.137+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:56:16.137+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T17:56:16.146+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:56:16.145+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T17:56:16.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.046 seconds
+[2024-07-25T17:56:46.815+0000] {processor.py:161} INFO - Started process (PID=388) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:56:46.816+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T17:56:46.817+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:56:46.817+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:56:46.822+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:56:46.833+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:56:46.833+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T17:56:46.839+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:56:46.839+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T17:56:46.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.037 seconds
+[2024-07-25T17:57:17.447+0000] {processor.py:161} INFO - Started process (PID=448) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:57:17.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T17:57:17.448+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:57:17.448+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:57:17.452+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:57:17.463+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:57:17.463+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T17:57:17.469+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:57:17.469+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T17:57:17.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.034 seconds
+[2024-07-25T17:57:48.044+0000] {processor.py:161} INFO - Started process (PID=508) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:57:48.045+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T17:57:48.046+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:57:48.046+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:57:48.051+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:57:48.061+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:57:48.061+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T17:57:48.067+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:57:48.067+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T17:57:48.075+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.034 seconds
+[2024-07-25T17:58:18.736+0000] {processor.py:161} INFO - Started process (PID=568) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:58:18.737+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T17:58:18.738+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:58:18.738+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:58:18.746+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:58:18.756+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:58:18.756+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T17:58:18.762+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:58:18.762+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T17:58:18.770+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.042 seconds
+[2024-07-25T17:58:49.424+0000] {processor.py:161} INFO - Started process (PID=628) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:58:49.425+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T17:58:49.426+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:58:49.426+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:58:49.432+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:58:49.447+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:58:49.447+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T17:58:49.456+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:58:49.455+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T17:58:49.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.046 seconds
+[2024-07-25T17:59:20.128+0000] {processor.py:161} INFO - Started process (PID=688) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:59:20.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T17:59:20.131+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:59:20.131+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:59:20.139+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:59:20.151+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:59:20.151+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T17:59:20.158+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:59:20.157+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T17:59:20.169+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.045 seconds
+[2024-07-25T17:59:50.865+0000] {processor.py:161} INFO - Started process (PID=748) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:59:50.867+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T17:59:50.869+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:59:50.868+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:59:50.876+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T17:59:50.891+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:59:50.891+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T17:59:50.899+0000] {logging_mixin.py:188} INFO - [2024-07-25T17:59:50.898+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T17:59:50.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.050 seconds
+[2024-07-25T18:00:21.600+0000] {processor.py:161} INFO - Started process (PID=808) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:00:21.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:00:21.604+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:00:21.603+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:00:21.613+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:00:21.631+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:00:21.631+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:00:21.639+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:00:21.639+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:00:21.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.057 seconds
+[2024-07-25T18:00:52.347+0000] {processor.py:161} INFO - Started process (PID=868) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:00:52.349+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:00:52.350+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:00:52.350+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:00:52.359+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:00:52.375+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:00:52.375+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:00:52.384+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:00:52.384+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:00:52.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.058 seconds
+[2024-07-25T18:01:23.103+0000] {processor.py:161} INFO - Started process (PID=928) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:01:23.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:01:23.105+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:01:23.104+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:01:23.109+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:01:23.120+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:01:23.120+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:01:23.127+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:01:23.127+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:01:23.137+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.038 seconds
+[2024-07-25T18:01:53.155+0000] {processor.py:161} INFO - Started process (PID=988) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:01:53.156+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:01:53.158+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:01:53.157+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:01:53.162+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:01:53.173+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:01:53.173+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:01:53.179+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:01:53.179+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:01:53.189+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.037 seconds
+[2024-07-25T18:02:23.219+0000] {processor.py:161} INFO - Started process (PID=1048) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:02:23.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:02:23.221+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:02:23.220+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:02:23.225+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:02:23.236+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:02:23.236+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:02:23.242+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:02:23.242+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:02:23.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.037 seconds
+[2024-07-25T18:02:53.368+0000] {processor.py:161} INFO - Started process (PID=1108) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:02:53.369+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:02:53.373+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:02:53.373+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:02:53.385+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:02:53.403+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:02:53.403+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:02:53.412+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:02:53.412+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:02:53.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.064 seconds
+[2024-07-25T18:03:23.827+0000] {processor.py:161} INFO - Started process (PID=1168) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:03:23.828+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:03:23.830+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:03:23.830+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:03:23.835+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:03:23.849+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:03:23.849+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:03:23.856+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:03:23.856+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:03:23.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.044 seconds
+[2024-07-25T18:03:54.755+0000] {processor.py:161} INFO - Started process (PID=1238) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:03:54.756+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:03:54.757+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:03:54.757+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:03:54.762+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:03:54.774+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:03:54.774+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:03:54.781+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:03:54.781+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:03:54.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.039 seconds
+[2024-07-25T18:04:24.931+0000] {processor.py:161} INFO - Started process (PID=1307) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:04:24.933+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:04:24.940+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:04:24.939+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:04:24.951+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:04:24.965+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:04:24.965+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:04:24.972+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:04:24.972+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:04:24.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.063 seconds
+[2024-07-25T18:04:55.065+0000] {processor.py:161} INFO - Started process (PID=1376) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:04:55.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:04:55.070+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:04:55.070+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:04:55.079+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:04:55.101+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:04:55.100+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:04:55.108+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:04:55.108+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:04:55.119+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.062 seconds
+[2024-07-25T18:05:25.329+0000] {processor.py:161} INFO - Started process (PID=1445) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:05:25.330+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:05:25.334+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:05:25.333+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:05:25.344+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:05:25.359+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:05:25.359+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:05:25.367+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:05:25.367+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:05:25.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.059 seconds
+[2024-07-25T18:05:55.657+0000] {processor.py:161} INFO - Started process (PID=1514) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:05:55.658+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:05:55.661+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:05:55.660+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:05:55.669+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:05:55.684+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:05:55.684+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:05:55.693+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:05:55.693+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:05:55.709+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.060 seconds
+[2024-07-25T18:06:26.387+0000] {processor.py:161} INFO - Started process (PID=1583) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:06:26.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:06:26.391+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:06:26.390+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:06:26.398+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:06:26.413+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:06:26.412+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:06:26.421+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:06:26.421+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:06:26.431+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.055 seconds
+[2024-07-25T18:06:56.725+0000] {processor.py:161} INFO - Started process (PID=1652) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:06:56.727+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:06:56.731+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:06:56.730+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:06:56.739+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:06:56.753+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:06:56.753+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:06:56.761+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:06:56.761+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:06:56.771+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.055 seconds
+[2024-07-25T18:07:27.115+0000] {processor.py:161} INFO - Started process (PID=1721) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:07:27.117+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:07:27.122+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:07:27.121+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:07:27.132+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:07:27.160+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:07:27.160+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:07:27.170+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:07:27.170+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:07:27.181+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.076 seconds
+[2024-07-25T18:07:58.061+0000] {processor.py:161} INFO - Started process (PID=1796) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:07:58.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:07:58.067+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:07:58.067+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:07:58.075+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:07:58.093+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:07:58.093+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:07:58.103+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:07:58.103+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:07:58.114+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.058 seconds
+[2024-07-25T18:08:28.555+0000] {processor.py:161} INFO - Started process (PID=1865) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:08:28.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:08:28.558+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:08:28.558+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:08:28.564+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:08:28.579+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:08:28.579+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:08:28.592+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:08:28.592+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:08:28.603+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.053 seconds
+[2024-07-25T18:08:59.464+0000] {processor.py:161} INFO - Started process (PID=1934) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:08:59.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:08:59.466+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:08:59.466+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:08:59.471+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:08:59.483+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:08:59.483+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:08:59.490+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:08:59.490+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:08:59.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.040 seconds
+[2024-07-25T18:09:30.168+0000] {processor.py:161} INFO - Started process (PID=1996) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:09:30.169+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:09:30.171+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:09:30.171+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:09:30.176+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:09:30.194+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:09:30.194+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:09:30.202+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:09:30.202+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:09:30.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.048 seconds
+[2024-07-25T18:10:00.687+0000] {processor.py:161} INFO - Started process (PID=2062) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:10:00.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:10:00.695+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:10:00.695+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:10:00.705+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:10:00.731+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:10:00.731+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:10:00.741+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:10:00.740+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:10:00.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.084 seconds
+[2024-07-25T18:10:31.156+0000] {processor.py:161} INFO - Started process (PID=2131) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:10:31.158+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:10:31.163+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:10:31.162+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:10:31.172+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:10:31.189+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:10:31.189+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:10:31.198+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:10:31.198+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:10:31.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.067 seconds
+[2024-07-25T18:11:01.492+0000] {processor.py:161} INFO - Started process (PID=2200) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:11:01.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:11:01.497+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:11:01.497+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:11:01.518+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:11:01.539+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:11:01.539+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:11:01.550+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:11:01.549+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:11:01.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.084 seconds
+[2024-07-25T18:11:32.099+0000] {processor.py:161} INFO - Started process (PID=2268) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:11:32.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:11:32.104+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:11:32.103+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:11:32.121+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:11:32.140+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:11:32.140+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:11:32.149+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:11:32.149+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:11:32.161+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.070 seconds
+[2024-07-25T18:12:02.242+0000] {processor.py:161} INFO - Started process (PID=2337) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:12:02.244+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:12:02.246+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:12:02.246+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:12:02.252+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:12:02.266+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:12:02.266+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:12:02.273+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:12:02.273+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:12:02.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.050 seconds
+[2024-07-25T18:12:32.378+0000] {processor.py:161} INFO - Started process (PID=2406) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:12:32.379+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:12:32.382+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:12:32.381+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:12:32.389+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:12:32.402+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:12:32.402+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:12:32.409+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:12:32.409+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:12:32.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.047 seconds
+[2024-07-25T18:13:03.232+0000] {processor.py:161} INFO - Started process (PID=2475) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:13:03.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:13:03.235+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:13:03.235+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:13:03.240+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:13:03.253+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:13:03.253+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:13:03.263+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:13:03.263+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:13:03.272+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.049 seconds
+[2024-07-25T18:13:33.665+0000] {processor.py:161} INFO - Started process (PID=2543) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:13:33.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:13:33.668+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:13:33.668+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:13:33.676+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:13:33.693+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:13:33.693+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:13:33.701+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:13:33.701+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:13:33.712+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.051 seconds
+[2024-07-25T18:14:04.042+0000] {processor.py:161} INFO - Started process (PID=2612) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:14:04.044+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:14:04.047+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:14:04.046+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:14:04.053+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:14:04.067+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:14:04.067+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:14:04.075+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:14:04.075+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:14:04.086+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.052 seconds
+[2024-07-25T18:14:34.275+0000] {processor.py:161} INFO - Started process (PID=2681) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:14:34.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:14:34.282+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:14:34.282+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:14:34.291+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:14:34.303+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:14:34.303+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:14:34.309+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:14:34.309+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:14:34.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.052 seconds
+[2024-07-25T18:15:04.576+0000] {processor.py:161} INFO - Started process (PID=2750) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:15:04.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:15:04.581+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:15:04.580+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:15:04.587+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:15:04.600+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:15:04.600+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:15:04.608+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:15:04.607+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:15:04.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.049 seconds
+[2024-07-25T18:15:34.782+0000] {processor.py:161} INFO - Started process (PID=2819) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:15:34.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:15:34.787+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:15:34.786+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:15:34.793+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:15:34.806+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:15:34.806+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:15:34.813+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:15:34.813+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:15:34.823+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.047 seconds
+[2024-07-25T18:16:05.251+0000] {processor.py:161} INFO - Started process (PID=2888) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:16:05.252+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:16:05.255+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:16:05.255+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:16:05.260+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:16:05.273+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:16:05.273+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:16:05.281+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:16:05.280+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:16:05.293+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.049 seconds
+[2024-07-25T18:16:35.537+0000] {processor.py:161} INFO - Started process (PID=2957) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:16:35.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:16:35.539+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:16:35.539+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:16:35.544+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:16:35.557+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:16:35.557+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:16:35.564+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:16:35.563+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:16:35.574+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.040 seconds
+[2024-07-25T18:17:05.983+0000] {processor.py:161} INFO - Started process (PID=3026) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:17:05.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:17:05.986+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:17:05.986+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:17:05.992+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:17:06.004+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:17:06.004+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:17:06.011+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:17:06.011+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:17:06.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.045 seconds
+[2024-07-25T18:17:36.082+0000] {processor.py:161} INFO - Started process (PID=3095) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:17:36.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:17:36.084+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:17:36.084+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:17:36.088+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:17:36.099+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:17:36.099+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:17:36.105+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:17:36.105+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:17:36.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.035 seconds
+[2024-07-25T18:18:06.885+0000] {processor.py:161} INFO - Started process (PID=3155) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:18:06.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:18:06.889+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:18:06.889+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:18:06.898+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:18:06.913+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:18:06.913+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:18:06.920+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:18:06.920+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:18:06.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.051 seconds
+[2024-07-25T18:18:36.976+0000] {processor.py:161} INFO - Started process (PID=3223) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:18:36.977+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:18:36.980+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:18:36.980+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:18:36.989+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:18:37.006+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:18:37.006+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:18:37.016+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:18:37.016+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:18:37.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.057 seconds
+[2024-07-25T18:19:07.496+0000] {processor.py:161} INFO - Started process (PID=3292) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:19:07.501+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:19:07.507+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:19:07.507+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:19:07.518+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:19:07.537+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:19:07.537+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:19:07.547+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:19:07.547+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:19:07.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.082 seconds
+[2024-07-25T18:19:38.406+0000] {processor.py:161} INFO - Started process (PID=3361) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:19:38.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:19:38.409+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:19:38.408+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:19:38.414+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:19:38.426+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:19:38.425+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:19:38.433+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:19:38.432+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:19:38.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.043 seconds
+[2024-07-25T18:20:08.626+0000] {processor.py:161} INFO - Started process (PID=3430) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:20:08.627+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:20:08.631+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:20:08.631+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:20:08.643+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:20:08.663+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:20:08.663+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:20:08.673+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:20:08.672+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:20:08.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.073 seconds
+[2024-07-25T18:20:39.144+0000] {processor.py:161} INFO - Started process (PID=3509) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:20:39.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:20:39.149+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:20:39.148+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:20:39.159+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:20:39.177+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:20:39.177+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:20:39.186+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:20:39.186+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:20:39.198+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.065 seconds
+[2024-07-25T18:21:09.655+0000] {processor.py:161} INFO - Started process (PID=3578) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:21:09.659+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:21:09.665+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:21:09.665+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:21:09.675+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:21:09.689+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:21:09.689+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:21:09.696+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:21:09.696+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:21:09.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.060 seconds
+[2024-07-25T18:21:39.957+0000] {processor.py:161} INFO - Started process (PID=3647) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:21:39.959+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:21:39.963+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:21:39.962+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:21:39.971+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:21:39.987+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:21:39.987+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:21:39.994+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:21:39.994+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:21:40.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.055 seconds
+[2024-07-25T18:22:10.228+0000] {processor.py:161} INFO - Started process (PID=3716) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:22:10.230+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:22:10.231+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:22:10.231+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:22:10.237+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:22:10.250+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:22:10.250+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:22:10.258+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:22:10.258+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:22:10.267+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.046 seconds
+[2024-07-25T18:22:40.387+0000] {processor.py:161} INFO - Started process (PID=3785) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:22:40.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:22:40.390+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:22:40.390+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:22:40.396+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:22:40.409+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:22:40.408+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:22:40.416+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:22:40.416+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:22:40.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.046 seconds
+[2024-07-25T18:23:11.192+0000] {processor.py:161} INFO - Started process (PID=3845) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:23:11.194+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:23:11.196+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:23:11.196+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:23:11.208+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:23:11.219+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:23:11.219+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:23:11.226+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:23:11.226+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:23:11.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.049 seconds
+[2024-07-25T18:23:41.862+0000] {processor.py:161} INFO - Started process (PID=3905) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:23:41.863+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:23:41.865+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:23:41.865+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:23:41.875+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:23:41.892+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:23:41.892+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:23:41.901+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:23:41.901+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:23:41.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.058 seconds
+[2024-07-25T18:24:12.638+0000] {processor.py:161} INFO - Started process (PID=3965) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:24:12.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:24:12.641+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:24:12.640+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:24:12.651+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:24:12.670+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:24:12.669+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:24:12.679+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:24:12.679+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:24:12.692+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.060 seconds
+[2024-07-25T18:24:43.477+0000] {processor.py:161} INFO - Started process (PID=4025) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:24:43.478+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:24:43.481+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:24:43.481+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:24:43.494+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:24:43.511+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:24:43.511+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:24:43.518+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:24:43.518+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:24:43.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.059 seconds
+[2024-07-25T18:25:14.286+0000] {processor.py:161} INFO - Started process (PID=4085) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:25:14.287+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:25:14.290+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:25:14.289+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:25:14.296+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:25:14.312+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:25:14.312+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:25:14.319+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:25:14.319+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:25:14.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.048 seconds
+[2024-07-25T18:25:44.648+0000] {processor.py:161} INFO - Started process (PID=4154) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:25:44.650+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:25:44.653+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:25:44.653+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:25:44.666+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:25:44.686+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:25:44.686+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:25:44.695+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:25:44.695+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:25:44.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.072 seconds
+[2024-07-25T18:26:15.478+0000] {processor.py:161} INFO - Started process (PID=4223) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:26:15.478+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:26:15.480+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:26:15.480+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:26:15.487+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:26:15.502+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:26:15.501+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:26:15.510+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:26:15.510+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:26:15.522+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.050 seconds
+[2024-07-25T18:26:45.859+0000] {processor.py:161} INFO - Started process (PID=4292) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:26:45.860+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:26:45.862+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:26:45.862+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:26:45.872+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:26:45.892+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:26:45.891+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:26:45.901+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:26:45.900+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:26:45.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.063 seconds
+[2024-07-25T18:27:16.307+0000] {processor.py:161} INFO - Started process (PID=4360) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:27:16.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:27:16.311+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:27:16.310+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:27:16.320+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:27:16.336+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:27:16.336+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:27:16.343+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:27:16.343+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:27:16.352+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.054 seconds
+[2024-07-25T18:27:47.003+0000] {processor.py:161} INFO - Started process (PID=4429) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:27:47.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:27:47.006+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:27:47.006+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:27:47.013+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:27:47.031+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:27:47.031+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:27:47.039+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:27:47.039+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:27:47.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.054 seconds
+[2024-07-25T18:28:17.356+0000] {processor.py:161} INFO - Started process (PID=4498) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:28:17.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:28:17.361+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:28:17.360+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:28:17.368+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:28:17.384+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:28:17.384+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:28:17.393+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:28:17.392+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:28:17.405+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.058 seconds
+[2024-07-25T18:28:47.847+0000] {processor.py:161} INFO - Started process (PID=4567) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:28:47.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:28:47.851+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:28:47.850+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:28:47.857+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:28:47.872+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:28:47.872+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:28:47.880+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:28:47.880+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:28:47.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.051 seconds
+[2024-07-25T18:29:18.153+0000] {processor.py:161} INFO - Started process (PID=4636) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:29:18.154+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:29:18.156+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:29:18.156+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:29:18.163+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:29:18.175+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:29:18.175+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:29:18.182+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:29:18.182+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:29:18.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.045 seconds
+[2024-07-25T18:29:48.547+0000] {processor.py:161} INFO - Started process (PID=4705) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:29:48.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:29:48.553+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:29:48.552+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:29:48.562+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:29:48.580+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:29:48.579+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:29:48.587+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:29:48.587+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:29:48.598+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.061 seconds
+[2024-07-25T18:30:19.148+0000] {processor.py:161} INFO - Started process (PID=4774) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:30:19.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:30:19.152+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:30:19.152+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:30:19.162+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:30:19.179+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:30:19.179+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:30:19.186+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:30:19.186+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:30:19.197+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.056 seconds
+[2024-07-25T18:30:49.732+0000] {processor.py:161} INFO - Started process (PID=4843) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:30:49.732+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:30:49.734+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:30:49.734+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:30:49.739+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:30:49.752+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:30:49.752+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:30:49.759+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:30:49.758+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:30:49.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.041 seconds
+[2024-07-25T18:31:20.090+0000] {processor.py:161} INFO - Started process (PID=4912) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:31:20.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:31:20.094+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:31:20.094+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:31:20.099+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:31:20.113+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:31:20.113+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:31:20.120+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:31:20.120+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:31:20.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.046 seconds
+[2024-07-25T18:31:50.631+0000] {processor.py:161} INFO - Started process (PID=4981) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:31:50.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:31:50.633+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:31:50.633+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:31:50.638+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:31:50.648+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:31:50.648+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:31:50.655+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:31:50.655+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:31:50.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.036 seconds
+[2024-07-25T18:32:21.305+0000] {processor.py:161} INFO - Started process (PID=5041) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:32:21.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:32:21.308+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:32:21.308+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:32:21.315+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:32:21.328+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:32:21.327+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:32:21.335+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:32:21.334+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:32:21.344+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.045 seconds
+[2024-07-25T18:32:52.202+0000] {processor.py:161} INFO - Started process (PID=5109) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:32:52.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:32:52.207+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:32:52.207+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:32:52.219+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:32:52.237+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:32:52.237+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:32:52.246+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:32:52.246+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:32:52.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.064 seconds
+[2024-07-25T18:33:36.127+0000] {processor.py:161} INFO - Started process (PID=32) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:33:36.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:33:36.131+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:33:36.130+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:33:36.143+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:33:36.297+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:33:36.297+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:33:36.309+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:33:36.308+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:33:36.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.203 seconds
+[2024-07-25T18:34:06.987+0000] {processor.py:161} INFO - Started process (PID=100) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:34:06.987+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:34:06.990+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:34:06.990+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:34:06.998+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:34:07.014+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:34:07.014+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:34:07.022+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:34:07.022+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:34:07.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.055 seconds
+[2024-07-25T18:34:37.275+0000] {processor.py:161} INFO - Started process (PID=169) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:34:37.277+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:34:37.279+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:34:37.279+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:34:37.286+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:34:37.301+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:34:37.301+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:34:37.310+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:34:37.310+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:34:37.321+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.054 seconds
+[2024-07-25T18:35:07.467+0000] {processor.py:161} INFO - Started process (PID=238) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:35:07.467+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:35:07.470+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:35:07.469+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:35:07.474+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:35:07.487+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:35:07.487+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:35:07.494+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:35:07.494+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:35:07.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.041 seconds
+[2024-07-25T18:35:37.754+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:35:37.755+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:35:37.758+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:35:37.758+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:35:37.766+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:35:37.781+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:35:37.781+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:35:37.790+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:35:37.790+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:35:37.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.056 seconds
+[2024-07-25T18:36:08.105+0000] {processor.py:161} INFO - Started process (PID=376) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:36:08.108+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:36:08.111+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:36:08.110+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:36:08.118+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:36:08.134+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:36:08.134+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:36:08.143+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:36:08.143+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:36:08.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.057 seconds
+[2024-07-25T18:36:38.845+0000] {processor.py:161} INFO - Started process (PID=445) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:36:38.847+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:36:38.848+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:36:38.848+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:36:38.855+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:36:38.867+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:36:38.867+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:36:38.874+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:36:38.874+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:36:38.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.046 seconds
+[2024-07-25T18:37:09.189+0000] {processor.py:161} INFO - Started process (PID=514) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:37:09.190+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:37:09.192+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:37:09.192+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:37:09.197+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:37:09.209+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:37:09.209+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:37:09.215+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:37:09.215+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:37:09.226+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.041 seconds
+[2024-07-25T18:37:39.608+0000] {processor.py:161} INFO - Started process (PID=593) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:37:39.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:37:39.612+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:37:39.612+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:37:39.617+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:37:39.629+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:37:39.628+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:37:39.635+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:37:39.635+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:37:39.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.041 seconds
+[2024-07-25T18:38:10.338+0000] {processor.py:161} INFO - Started process (PID=662) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:38:10.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:38:10.340+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:38:10.340+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:38:10.345+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:38:10.356+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:38:10.356+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:38:10.363+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:38:10.363+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:38:10.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.037 seconds
+[2024-07-25T18:38:40.434+0000] {processor.py:161} INFO - Started process (PID=731) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:38:40.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:38:40.436+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:38:40.436+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:38:40.440+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:38:40.454+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:38:40.454+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:38:40.460+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:38:40.460+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:38:40.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.040 seconds
+[2024-07-25T18:39:11.220+0000] {processor.py:161} INFO - Started process (PID=800) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:39:11.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:39:11.222+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:39:11.222+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:39:11.228+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:39:11.240+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:39:11.240+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:39:11.248+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:39:11.248+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:39:11.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.041 seconds
+[2024-07-25T18:39:41.895+0000] {processor.py:161} INFO - Started process (PID=869) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:39:41.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:39:41.897+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:39:41.897+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:39:41.903+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:39:41.918+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:39:41.918+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:39:41.927+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:39:41.927+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:39:41.946+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.058 seconds
+[2024-07-25T18:40:12.099+0000] {processor.py:161} INFO - Started process (PID=928) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:40:12.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:40:12.104+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:40:12.103+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:40:12.115+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:40:12.136+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:40:12.135+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:40:12.145+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:40:12.145+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:40:12.158+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.070 seconds
+[2024-07-25T18:40:42.447+0000] {processor.py:161} INFO - Started process (PID=997) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:40:42.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:40:42.451+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:40:42.451+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:40:42.460+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:40:42.486+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:40:42.485+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:40:42.496+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:40:42.496+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:40:42.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.075 seconds
+[2024-07-25T18:41:13.022+0000] {processor.py:161} INFO - Started process (PID=1066) to work on /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:41:13.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/print_sql_request_dag.py for tasks to queue
+[2024-07-25T18:41:13.027+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:41:13.026+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:41:13.036+0000] {processor.py:840} INFO - DAG(s) 'list_db_tables' retrieved from /opt/airflow/dags/print_sql_request_dag.py
+[2024-07-25T18:41:13.058+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:41:13.058+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-25T18:41:13.068+0000] {logging_mixin.py:188} INFO - [2024-07-25T18:41:13.068+0000] {dag.py:3947} INFO - Setting next_dagrun for list_db_tables to None, run_after=None
+[2024-07-25T18:41:13.079+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/print_sql_request_dag.py took 0.067 seconds
